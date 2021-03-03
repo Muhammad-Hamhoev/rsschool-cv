@@ -6,7 +6,8 @@
 - **e-mail: ded.hamhoev@gmail.com**
 - **discord: Muhammad-Hamhoev(@Muhammad-Hamhoev)**
 ### About myself
--	I want to become a Full Stack Developer
+-	I want to become a Full Stack Developer.
+-	My goal is to find a job in the company and work on interesting projects.
 ##### Hardskills
 -   HTML/Pug
 -   Css/Sass
