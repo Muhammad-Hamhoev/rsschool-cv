@@ -2,6 +2,7 @@
 ---
 ### Contact-information
 - **tel: +7 922 007 48 49**
+- **tlgrm: @Muhammad_ded**
 - **e-mail: ded.hamhoev@gmail.com**
 - **discord: Muhammad-Hamhoev(@Muhammad-Hamhoev)**
 ### About myself
