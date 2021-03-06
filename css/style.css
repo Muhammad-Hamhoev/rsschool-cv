@@ -1,0 +1,97 @@
+body{ 
+  font-family: 'Roboto', sans-serif;
+
+  background-color: #d8d8d8; 
+}
+
+.container {  
+  margin: 0 auto;
+  
+  min-height: 100%;
+  width: 100%;
+  max-width: 1200px;
+
+  box-sizing: border-box;
+}
+
+.header { 
+  display: flex;
+  justify-content: space-between;
+  width: 100%; 
+  min-height: 70px;
+
+  background-color: #405770;
+}
+
+.head-main { 
+  margin-left: 15px;
+
+  color: #a8b4b1;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  box-sizing: border-box;
+}
+
+.main-content {
+  width: 65%;
+}
+
+.main-section { margin-left: 15px; }
+.main-section img{ border-radius: 20px; }
+.list { padding-left: 18px; }
+.item { padding-bottom: 10px; }
+.item span{ font-weight: 600; }
+
+.aside-content {
+  width: 35%;
+
+  background-color: #c7c2c2;
+  box-sizing: border-box;
+}
+
+.aside-section {
+  margin: 20px auto;
+
+  width: 80%;
+  
+}
+
+.aside-avatar {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  
+  border-radius: 20px;
+  background-color: #ccc;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 70px;
+
+  background-color: #405770;
+}
+
+.rs-school {
+  margin-right: 10px;
+
+  width: 70px;
+  height: 70px;
+}
+
+.github-logo {
+  margin-right: 10px;
+
+  width: 40px;
+  height: 40px;
+}
+
+.copyright {
+  font-weight: 600;
+}
