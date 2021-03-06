@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?750cjq');
+  src:  url('../fonts/icomoon.eot?750cjq#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?750cjq') format('truetype'),
+    url('../fonts/icomoon.woff?750cjq') format('woff'),
+    url('../fonts/icomoon.svg?750cjq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-github-logo:before {
+  content: "\e900";
+}
+.icon-rs-school-js .path1:before {
+  content: "\e901";
+  color: rgb(0, 0, 0);
+}
+.icon-rs-school-js .path2:before {
+  content: "\e902";
+  margin-left: -2.6923828125em;
+  color: rgb(0, 0, 0);
+}
+.icon-rs-school-js .path3:before {
+  content: "\e903";
+  margin-left: -2.6923828125em;
+  color: rgb(0, 0, 0);
+}
+.icon-rs-school-js .path4:before {
+  content: "\e904";
+  margin-left: -2.6923828125em;
+  color: rgb(0, 0, 0);
+}
+.icon-rs-school-js .path5:before {
+  content: "\e905";
+  margin-left: -2.6923828125em;
+  color: rgb(255, 255, 255);
+}
+.icon-rs-school-js .path6:before {
+  content: "\e906";
+  margin-left: -2.6923828125em;
+  color: rgb(255, 255, 255);
+}
+.icon-rs-school-js .path7:before {
+  content: "\e907";
+  margin-left: -2.6923828125em;
+  color: rgb(255, 255, 255);
+}
+.icon-rs-school-js .path8:before {
+  content: "\e908";
+  margin-left: -2.6923828125em;
+  color: rgb(255, 255, 255);
+}
+.icon-rs-school-js .path9:before {
+  content: "\e909";
+  margin-left: -2.6923828125em;
+  color: none;
+}
+.icon-rs-school-js .path10:before {
+  content: "\e90a";
+  margin-left: -2.6923828125em;
+  color: none;
+}
+.icon-rs-school-js .path11:before {
+  content: "\e90b";
+  margin-left: -2.6923828125em;
+  color: none;
+}
+.icon-rs-school-js .path12:before {
+  content: "\e90c";
+  margin-left: -2.6923828125em;
+  color: rgb(0, 0, 0);
+}
