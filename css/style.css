@@ -1,4 +1,4 @@
-body{ 
+body { 
   font-family: 'Roboto', sans-serif;
 
   background-color: #d8d8d8; 
@@ -40,8 +40,13 @@ body{
   width: 65%;
 }
 
-.main-section { margin-left: 15px; }
-.main-section img{ border-radius: 20px; }
+.main-section { margin: 0 15px; }
+
+.main-section img { 
+  max-width: 100%;
+  
+  border-radius: 20px; 
+}
 .list { padding-left: 18px; }
 .item { padding-bottom: 10px; }
 .item span{ font-weight: 600; }
@@ -57,12 +62,13 @@ body{
   margin: 20px auto;
 
   width: 80%;
-  
 }
 
 .aside-avatar {
+  margin: 20px auto;
+
   display: block;
-  max-width: 100%;
+  max-width: 80%;
   height: auto;
   
   border-radius: 20px;
@@ -94,4 +100,50 @@ body{
 
 .copyright {
   font-weight: 600;
+}
+
+@media screen and ( max-width: 992px ) {
+
+  .main-content { width: 100%; }
+
+  .aside-content {
+    padding: 0 15px;
+    order: -1;
+
+    display: flex;
+    width: 100%;
+
+    box-sizing: border-box;
+  }
+
+  .aside-section {
+    margin-left: 20px;
+    width: 70%;
+  }
+
+  .aside-avatar {
+    margin-left: 0;
+    width: 30%;
+  }
+}
+
+@media screen and ( max-width: 700px ) {
+
+  .head-main { 
+    margin: 20px auto;
+
+    font-size: 28px;
+  }
+
+  .aside-content { flex-wrap: wrap; }
+
+  .aside-avatar {
+    margin: 20px auto;
+    width: 50%;
+  }
+
+  .aside-section {
+    margin: 0 auto;
+    width: 100%;
+  }
 }
